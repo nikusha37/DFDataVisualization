@@ -1,0 +1,7 @@
+body { /* Change the logo urls in the line after if needed */
+    background: url("img/kit_logo.jpg"), url("img/esd_logo.png"), url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='40px' width='auto'><text x='10' y='20' fill='grey' font-size='30'> Workshop: Energy Time Series Storage and Analytics </text></svg>");
+    background-size: 10%, 10%, 95%;
+    background-position: 5% 5%, 95% 5%, 100% 98%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    color: red;
+}

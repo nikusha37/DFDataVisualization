@@ -1,0 +1,15 @@
+ @font-face {
+    font-family: BOGFont;
+    src: url(media/fonts/MarkGEO-Light.woff2);
+  }
+
+@font-face {
+    font-family: BOGFontCAP;
+    src: url(media/fonts/MarkGEOCAPS-Light.woff2);
+  }
+
+
+  h1 div {
+    font-family: BOGFont !important;
+  }
+
