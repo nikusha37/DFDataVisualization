@@ -8,8 +8,42 @@
     src: url(media/fonts/MarkGEOCAPS-Light.woff2);
   }
 
+h1 {
+  font-family: BOGFont !important;
+  color: #ff600a !important;
+}
 
-  h1 div {
+div {
     font-family: BOGFont !important;
+    color: rgb(87, 86, 86) !important;
   }
+
+#rise-header {
+  color: #ff600a !important;
+  position: relative !important;
+  float:right;
+  margin: 2%;
+}
+
+#rise-footer {
+  color:#ff600a !important;
+  position: relative !important;
+  float:left;
+  margin: 2%;
+}
+
+.footer-p {
+  margin: 0px !important;
+  font-size: 1rem;
+}
+
+
+#exit_b {
+  visibility: hidden;
+}
+
+#help_b {
+  visibility: hidden;
+}
+
 
