@@ -1,0 +1,131 @@
+ @font-face {
+    font-family: BOGFont;
+    src: url(media/fonts/MarkGEO-Light.woff2);
+  }
+
+@font-face {
+    font-family: BOGFontCAP;
+    src: url(media/fonts/MarkGEOCAPS-Light.woff2);
+  }
+
+body {
+  padding: 2%;
+  background-color: #ffdfb593 !important;
+}
+
+h1 {
+   font-family: BOGFont !important;
+   color: #ff600a !important;
+   margin-bottom: 5% !important;
+}
+
+h2 {
+  font-family: BOGFont !important;
+  color: #ff600a !important;
+  /* margin-bottom: 5% !important; */
+}
+
+h3 {
+  font-family: BOGFont !important;
+  color:  rgb(87, 86, 86) !important
+  /* margin-bottom: 5% !important; */
+}
+
+span.emphasized {
+  /* font-family: BOGFont !important; */
+  color:   #ff600a !important;
+}
+
+span.not-emphasized {
+  color:  rgb(87, 86, 86) !important;
+}
+
+.source {
+  color:  rgb(87, 86, 86) !important;
+  font-size: 2rem;
+}
+
+a {
+  font-family: BOGFont !important;
+  color: rgb(87, 86, 86) !important;
+  text-decoration: underline !important;;
+}
+
+
+
+div {
+    font-family: BOGFont !important;
+    color: rgb(87, 86, 86) !important;
+}
+
+.single-text {
+  font-family: BOGFont !important;
+  font-size: 3rem !important;
+  text-align: center;
+  color:  rgb(87, 86, 86) !important
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.margin-center{
+  margin:0 auto
+}
+
+
+.general-container {
+    font-size: 2rem;
+    font-family: BOGFont !important;
+}
+
+.general-container p{
+  width: 100%;
+}
+
+img{
+  margin: 0 auto !important;
+}
+
+.img-50{
+  width: 50% !important;
+}
+
+.content {
+  font-size: 2rem;
+}
+
+#rise-header {
+  color: #ff600a !important;
+  position: relative !important;
+  float:right;
+  /* margin: 1%; */
+}
+
+#rise-footer {
+  color:#ff600a !important;
+  position: relative !important;
+  float:left;
+  /* margin: 2%; */
+  /* margin-left: 1%; */
+}
+
+.footer-p {
+  margin: 0px !important;
+  font-size: 1rem;
+}
+
+
+#exit_b {
+  visibility: hidden;
+}
+
+#help_b {
+  visibility: hidden;
+}
+
+
